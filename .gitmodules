@@ -1,0 +1,3 @@
+[submodule "audio/audio2subtitle/pyTranscriber"]
+	path = audio/audio2subtitle/pyTranscriber
+	url = https://github.com/raryelcostasouza/pyTranscriber.git

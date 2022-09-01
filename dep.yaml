@@ -1,0 +1,10 @@
+VideoGenerator:
+  audio/audio2subtitle: # 子模块，可用于构建依赖
+    base_on: pyTranscriber # git submodule，可用于构建依赖，将会被打包到constructor中作为实现体指定
+    constructor: # constructor作为构建目标对象的参数
+  video/video_with_audio.py:
+    base_on:
+    constructor:
+  ocr/img2text.py:
+    base_on:
+    constructor:
